@@ -114,6 +114,11 @@ button:hover {
 
 
 /* amenity checkbox */
-.amenities .popover input[type="checkbox"] {
+.amenities .popover input[type="checkbox"],
+.locations .popover input[type="checkbox"] {
     margin-right: 10px;
+}
+
+.locations .popover ul h2 {
+    display: inline-block;
 }
